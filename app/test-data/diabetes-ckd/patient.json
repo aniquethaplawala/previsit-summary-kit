@@ -1,0 +1,25 @@
+{
+  "slug": "diabetes-ckd",
+  "name": "Robert Alvarez",
+  "dob": "1962-03-18",
+  "sex": "male",
+  "visitDate": "2026-11-24",
+  "visitReason": "Diabetes and kidney follow-up",
+  "specialty": "Primary care",
+  "blurb": "Type 2 diabetes with stage 3 CKD. Four visits, a lab report and a pharmacy medication list over 21 months.",
+  "sources": [
+    { "file": "notes/2025-02-11-annual-visit.md", "kind": "note", "title": "Annual visit", "date": "2025-02-11" },
+    { "file": "notes/2025-08-19-follow-up.md", "kind": "note", "title": "Diabetes follow-up", "date": "2025-08-19" },
+    { "file": "notes/2026-03-04-follow-up.md", "kind": "note", "title": "Diabetes follow-up", "date": "2026-03-04" },
+    { "file": "notes/2026-06-12-follow-up.md", "kind": "note", "title": "Diabetes and CKD follow-up", "date": "2026-06-12" },
+    { "file": "labs/2026-09-30-lab-report.txt", "kind": "labs", "title": "Lab report (Quest)", "date": "2026-09-30" },
+    { "file": "meds/2026-10-01-pharmacy-med-list.txt", "kind": "meds", "title": "Pharmacy medication list", "date": "2026-10-01" }
+  ],
+  "traps": [
+    { "id": "stopped_med_on_list", "description": "Glipizide was stopped on 2026-03-04 for hypoglycemia but is still on the 2026-10-01 pharmacy list.", "all": ["glipizide", "stop|discontinu|still"], "sections": ["medications", "changes", "ask_today"] },
+    { "id": "lab_worsening", "description": "eGFR fell 58 -> 55 -> 52 -> 47 -> 44.", "all": ["egfr", "44"], "sections": ["labs", "changes", "problems"] },
+    { "id": "allergy_conflict", "description": "Sulfa allergy (rash) in the 2025 note; the pharmacy list says NKDA.", "all": ["sulfa", "nkda|no known"], "sections": ["allergies", "ask_today"] },
+    { "id": "open_referral", "description": "Nephrology referral placed 2026-06-12 with no record it happened.", "all": ["nephrology"], "sections": ["open_loops", "ask_today"] },
+    { "id": "overdue_eye_exam", "description": "Diabetic eye exam referred in 2025 and never done.", "all": ["eye|ophthalm|retin"], "sections": ["open_loops", "ask_today"] }
+  ]
+}

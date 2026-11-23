@@ -1,0 +1,9 @@
+CVS/pharmacy #8812 — Prescription profile
+Patient: Jordan Lee      Profile printed: 2026-11-10
+
+ACTIVE
+Escitalopram 20 mg tab ......... 1 tab daily ........................ last filled 2026-10-30
+Sertraline 100 mg tab .......... 1 tab daily ........................ last filled 2026-03-28 (auto-refill on)
+Trazodone 50 mg tab ............ 1 tab at bedtime as needed for sleep . last filled 2026-10-30
+
+ALLERGIES: Codeine (nausea)

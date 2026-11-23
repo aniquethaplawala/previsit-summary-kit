@@ -1,0 +1,453 @@
+{
+  "31f331026a4b9a1b": {
+    "document_date": "2026-05-14",
+    "visit_reason": "Routine follow-up for HFrEF and atrial fibrillation",
+    "problems": [
+      {
+        "name": "HFrEF",
+        "status": "active",
+        "quote": "78-year-old woman with HFrEF (EF 30% on echo"
+      },
+      {
+        "name": "persistent atrial fibrillation",
+        "status": "active",
+        "quote": "persistent atrial fibrillation on apixaban"
+      },
+      {
+        "name": "Hyperkalemia",
+        "status": "active",
+        "quote": "Hyperkalemia, K 5.6. Spironolactone stopped."
+      },
+      {
+        "name": "ankle edema",
+        "status": "active",
+        "quote": "Mild ankle swelling in the evenings."
+      }
+    ],
+    "medications": [
+      {
+        "name": "sacubitril/valsartan",
+        "dose": "49/51 mg",
+        "frequency": "twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "sacubitril/valsartan 49/51 mg twice daily"
+      },
+      {
+        "name": "metoprolol succinate",
+        "dose": "100 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "metoprolol succinate 100 mg daily"
+      },
+      {
+        "name": "spironolactone",
+        "dose": "25 mg",
+        "frequency": "daily",
+        "action": "stopped",
+        "date": "2026-05-14",
+        "reason": "Hyperkalemia, K 5.6",
+        "quote": "Spironolactone stopped. Repeat BMP in 1 week."
+      },
+      {
+        "name": "furosemide",
+        "dose": "40 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "furosemide 40 mg daily"
+      },
+      {
+        "name": "apixaban",
+        "dose": "5 mg",
+        "frequency": "twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "apixaban 5 mg twice daily"
+      },
+      {
+        "name": "levothyroxine",
+        "dose": "75 mcg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "levothyroxine 75 mcg daily"
+      }
+    ],
+    "labs": [
+      {
+        "name": "ejection fraction",
+        "value": "30",
+        "unit": "%",
+        "reference_range": null,
+        "date": "2025-12-02",
+        "abnormal": null,
+        "quote": "HFrEF (EF 30% on echo 2025-12-02)"
+      },
+      {
+        "name": "Blood pressure",
+        "value": "118/68",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-05-14",
+        "abnormal": null,
+        "quote": "BP 118/68, HR 72 irregular"
+      },
+      {
+        "name": "Heart rate",
+        "value": "72",
+        "unit": "bpm",
+        "reference_range": null,
+        "date": "2026-05-14",
+        "abnormal": null,
+        "quote": "BP 118/68, HR 72 irregular"
+      },
+      {
+        "name": "weight",
+        "value": "69.0",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-05-14",
+        "abnormal": null,
+        "quote": "weight 69.0 kg. Trace bilateral ankle edema."
+      },
+      {
+        "name": "potassium",
+        "value": "5.6",
+        "unit": "mmol/L",
+        "reference_range": null,
+        "date": "2026-05-14",
+        "abnormal": true,
+        "quote": "potassium 5.6 mmol/L (high)"
+      },
+      {
+        "name": "creatinine",
+        "value": "1.1",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": "2026-05-14",
+        "abnormal": null,
+        "quote": "creatinine 1.1 mg/dL, NT-proBNP 2100 pg/mL."
+      },
+      {
+        "name": "NT-proBNP",
+        "value": "2100",
+        "unit": "pg/mL",
+        "reference_range": null,
+        "date": "2026-05-14",
+        "abnormal": null,
+        "quote": "NT-proBNP 2100 pg/mL."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": [
+      {
+        "item": "BMP",
+        "kind": "test",
+        "status": "pending",
+        "due": "in 1 week",
+        "quote": "Spironolactone stopped. Repeat BMP in 1 week."
+      },
+      {
+        "item": "Cardiac rehabilitation at St. Mary's",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Referred to cardiac rehabilitation at St. Mary's."
+      },
+      {
+        "item": "Follow-up in 3 to 4 months",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "in 3 to 4 months",
+        "quote": "Return in 3 to 4 months."
+      }
+    ]
+  },
+  "342964d1827753bb": {
+    "document_date": "2026-08-03",
+    "visit_reason": "shortness of breath for 3 days",
+    "problems": [
+      {
+        "name": "heart failure",
+        "status": "active",
+        "quote": "79-year-old woman with heart failure and atrial fibrillation."
+      },
+      {
+        "name": "atrial fibrillation",
+        "status": "active",
+        "quote": "79-year-old woman with heart failure and atrial fibrillation."
+      },
+      {
+        "name": "orthopnea",
+        "status": "active",
+        "quote": "Worse breathlessness with walking, new orthopnea, ankle swelling."
+      },
+      {
+        "name": "ankle swelling",
+        "status": "active",
+        "quote": "Worse breathlessness with walking, new orthopnea, ankle swelling."
+      },
+      {
+        "name": "bilateral pleural effusions",
+        "status": "active",
+        "quote": "Chest x-ray: small bilateral pleural effusions, cardiomegaly."
+      },
+      {
+        "name": "cardiomegaly",
+        "status": "active",
+        "quote": "Chest x-ray: small bilateral pleural effusions, cardiomegaly."
+      }
+    ],
+    "medications": [
+      {
+        "name": "furosemide",
+        "dose": "40 mg",
+        "frequency": "IV x1",
+        "action": "started",
+        "date": "2026-08-03",
+        "reason": "shortness of breath",
+        "quote": "furosemide 40 mg IV x1 with good urine output."
+      },
+      {
+        "name": "furosemide",
+        "dose": null,
+        "frequency": null,
+        "action": "taking",
+        "date": null,
+        "reason": "heart failure",
+        "quote": "Restart home furosemide."
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "142/80",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": null,
+        "quote": "BP 142/80"
+      },
+      {
+        "name": "Heart rate",
+        "value": "96",
+        "unit": "bpm",
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": null,
+        "quote": "HR 96 irregular"
+      },
+      {
+        "name": "SpO2",
+        "value": "93%",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": true,
+        "quote": "SpO2 93% on room air."
+      },
+      {
+        "name": "SpO2",
+        "value": "97%",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": false,
+        "quote": "Breathing improved, SpO2 97%."
+      },
+      {
+        "name": "BNP",
+        "value": "890",
+        "unit": "pg/mL",
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": true,
+        "quote": "BNP 890 pg/mL."
+      },
+      {
+        "name": "Troponin",
+        "value": "negative x2",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": false,
+        "quote": "Troponin negative x2."
+      },
+      {
+        "name": "Potassium",
+        "value": "4.2",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-03",
+        "abnormal": null,
+        "quote": "Potassium 4.2."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Cardiology follow-up",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "within 1 week",
+        "quote": "Follow up with cardiology within 1 week."
+      },
+      {
+        "item": "Chest x-ray",
+        "kind": "test",
+        "status": "done",
+        "due": null,
+        "quote": "Chest x-ray: small bilateral pleural effusions, cardiomegaly."
+      }
+    ]
+  },
+  "543302ccbc7c110e": {
+    "document_date": "2026-10-28",
+    "visit_reason": "Heart failure clinic follow-up",
+    "problems": [
+      {
+        "name": "Acute on chronic HFrEF",
+        "status": "active",
+        "quote": "Acute on chronic HFrEF, volume overloaded."
+      },
+      {
+        "name": "Volume overloaded",
+        "status": "active",
+        "quote": "Acute on chronic HFrEF, volume overloaded."
+      }
+    ],
+    "medications": [
+      {
+        "name": "furosemide",
+        "dose": "40 mg",
+        "frequency": "twice daily",
+        "action": "changed",
+        "date": "2026-10-28",
+        "reason": "Acute on chronic HFrEF, volume overloaded",
+        "quote": "Furosemide increased from 40 mg once daily to 40 mg twice daily."
+      },
+      {
+        "name": "IV furosemide",
+        "dose": null,
+        "frequency": null,
+        "action": "taking",
+        "date": "2026-08-03",
+        "reason": "shortness of breath",
+        "quote": "treated with IV furosemide and sent home."
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "126/74",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": false,
+        "quote": "BP 126/74"
+      },
+      {
+        "name": "Heart rate",
+        "value": "84",
+        "unit": "bpm",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": null,
+        "quote": "HR 84 irregular"
+      },
+      {
+        "name": "Weight",
+        "value": "72.4",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": null,
+        "quote": "weight 72.4 kg."
+      },
+      {
+        "name": "JVP",
+        "value": "10",
+        "unit": "cm",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": null,
+        "quote": "JVP 10 cm."
+      },
+      {
+        "name": "NT-proBNP",
+        "value": "3380",
+        "unit": "pg/mL",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": true,
+        "quote": "NT-proBNP 3380 pg/mL (high)"
+      },
+      {
+        "name": "potassium",
+        "value": "4.6",
+        "unit": "mmol/L",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": null,
+        "quote": "potassium 4.6 mmol/L"
+      },
+      {
+        "name": "creatinine",
+        "value": "1.3",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": "2026-10-28",
+        "abnormal": null,
+        "quote": "creatinine 1.3 mg/dL."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Echocardiogram",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "Repeat echocardiogram ordered to reassess EF."
+      },
+      {
+        "item": "Cardiac rehab referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Cardiac rehab: referral re-sent."
+      },
+      {
+        "item": "BMP",
+        "kind": "test",
+        "status": "pending",
+        "due": "Week before next visit (in 4-5 weeks)",
+        "quote": "Return in 4 to 5 weeks with BMP the week before."
+      },
+      {
+        "item": "Heart failure clinic follow-up",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "In 4 to 5 weeks",
+        "quote": "Return in 4 to 5 weeks with BMP the week before."
+      },
+      {
+        "item": "Daily weights",
+        "kind": "other",
+        "status": "pending",
+        "due": null,
+        "quote": "Daily weights; call if up 1 kg in a day or 2 kg in a week."
+      }
+    ]
+  }
+}

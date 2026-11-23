@@ -1,0 +1,13 @@
+LabCorp — Prenatal Panel     Collected 2026-06-15   Reported 2026-06-17
+Patient: KARIM, AISHA   DOB 06/21/1995
+
+Blood type and Rh ............ O positive
+Antibody screen .............. Negative
+Hemoglobin ................... 12.1 g/dL        (11.0-15.0)
+Platelets .................... 238 x10^3/uL    (150-400)
+Rubella IgG .................. Immune
+Hepatitis B surface antigen .. Non-reactive
+HIV 1/2 Ag/Ab ................ Non-reactive
+Syphilis (RPR) ............... Non-reactive
+Urine culture ................ No growth
+Cell-free DNA screen ......... Low risk

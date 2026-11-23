@@ -1,0 +1,25 @@
+{
+  "slug": "depression",
+  "name": "Jordan Lee",
+  "dob": "1984-01-30",
+  "visitDate": "2026-12-02",
+  "visitReason": "Depression medication follow-up",
+  "specialty": "Behavioral health in primary care",
+  "blurb": "Major depression over a year of medication changes. Five visits and a pharmacy list. No sex recorded, so the summary must not guess pronouns.",
+  "sources": [
+    { "file": "notes/2025-11-05-initial.md", "kind": "note", "title": "New concern: low mood", "date": "2025-11-05" },
+    { "file": "notes/2026-01-07-follow-up.md", "kind": "note", "title": "Depression follow-up", "date": "2026-01-07" },
+    { "file": "notes/2026-04-15-follow-up.md", "kind": "note", "title": "Depression follow-up", "date": "2026-04-15" },
+    { "file": "notes/2026-08-19-follow-up.md", "kind": "note", "title": "Depression follow-up", "date": "2026-08-19" },
+    { "file": "notes/2026-10-21-telehealth.md", "kind": "note", "title": "Telehealth follow-up", "date": "2026-10-21" },
+    { "file": "meds/2026-11-10-pharmacy-list.txt", "kind": "meds", "title": "Pharmacy medication list", "date": "2026-11-10" }
+  ],
+  "traps": [
+    { "id": "stopped_med_on_list", "description": "Sertraline was switched to escitalopram on 2026-04-15 but the pharmacy list still has both.", "all": ["sertraline", "stop|switch|escitalopram|still"], "sections": ["medications", "ask_today"] },
+    { "id": "lab_worsening", "description": "PHQ-9 went 14 -> 9 -> 8 -> 13 -> 18.", "all": ["phq", "18"], "sections": ["labs", "changes", "problems"] },
+    { "id": "allergy_conflict", "description": "Codeine (nausea) in the first note and pharmacy list; the April note says NKDA.", "all": ["codeine", "nkda|no known"], "sections": ["allergies", "ask_today"] },
+    { "id": "open_referral", "description": "Therapy (CBT) referral from 2025-11-05 never started.", "all": ["therap|cbt|behavioral health"], "sections": ["open_loops", "ask_today"] },
+    { "id": "item9", "description": "PHQ-9 item 9 positive on 2026-10-21; safety plan reviewed.", "all": ["item 9|self-harm|suicid|safety plan|thoughts of"], "sections": ["changes", "labs", "ask_today", "problems"] }
+  ],
+  "forbid": ["\\b(he|she|his|her|him|hers)\\b"]
+}

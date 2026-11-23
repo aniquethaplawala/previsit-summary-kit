@@ -1,0 +1,674 @@
+{
+  "91d4ae05639385ad": {
+    "document_date": "2026-06-15",
+    "visit_reason": "Initial prenatal visit",
+    "problems": [
+      {
+        "name": "Pregnancy",
+        "status": "active",
+        "quote": "INITIAL PRENATAL VISIT"
+      },
+      {
+        "name": "Nausea with vomiting",
+        "status": "active",
+        "quote": "Nausea most mornings with vomiting 2 to 3 times a week"
+      }
+    ],
+    "medications": [
+      {
+        "name": "prenatal vitamin",
+        "dose": null,
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "prenatal vitamin daily"
+      },
+      {
+        "name": "ondansetron",
+        "dose": "4 mg",
+        "frequency": "every 8 hours as needed",
+        "action": "started",
+        "date": "2026-06-15",
+        "reason": "Nausea most mornings with vomiting 2 to 3 times a week",
+        "quote": "started ondansetron 4 mg every 8 hours as needed"
+      }
+    ],
+    "labs": [
+      {
+        "name": "Dating ultrasound",
+        "value": "8w2d",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": false,
+        "quote": "Dating ultrasound today: 8w2d, consistent with LMP"
+      },
+      {
+        "name": "Blood pressure",
+        "value": "112/70",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "BP 112/70"
+      },
+      {
+        "name": "Weight",
+        "value": "64.0",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "weight 64.0 kg"
+      },
+      {
+        "name": "BMI",
+        "value": "23.5",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "BMI 23.5"
+      }
+    ],
+    "allergies": [
+      {
+        "substance": "Latex",
+        "reaction": "rash",
+        "quote": "Latex (rash)"
+      }
+    ],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Prenatal labs",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "prenatal labs today"
+      },
+      {
+        "item": "Genetic screening (cell-free DNA)",
+        "kind": "screening",
+        "status": "pending",
+        "due": null,
+        "quote": "genetic screening offered (accepted cell-free DNA)"
+      },
+      {
+        "item": "Prenatal follow-up visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "in 4 weeks",
+        "quote": "return in 4 weeks"
+      }
+    ]
+  },
+  "48b686df17307d2f": {
+    "document_date": "2026-06-17",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [],
+    "labs": [
+      {
+        "name": "Blood type and Rh",
+        "value": "O positive",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Blood type and Rh ............ O positive"
+      },
+      {
+        "name": "Antibody screen",
+        "value": "Negative",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Antibody screen .............. Negative"
+      },
+      {
+        "name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "11.0-15.0",
+        "date": "2026-06-15",
+        "abnormal": false,
+        "quote": "Hemoglobin ................... 12.1 g/dL (11.0-15.0)"
+      },
+      {
+        "name": "Platelets",
+        "value": "238",
+        "unit": "x10^3/uL",
+        "reference_range": "150-400",
+        "date": "2026-06-15",
+        "abnormal": false,
+        "quote": "Platelets .................... 238 x10^3/uL (150-400)"
+      },
+      {
+        "name": "Rubella IgG",
+        "value": "Immune",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Rubella IgG .................. Immune"
+      },
+      {
+        "name": "Hepatitis B surface antigen",
+        "value": "Non-reactive",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Hepatitis B surface antigen .. Non-reactive"
+      },
+      {
+        "name": "HIV 1/2 Ag/Ab",
+        "value": "Non-reactive",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "HIV 1/2 Ag/Ab ................ Non-reactive"
+      },
+      {
+        "name": "Syphilis (RPR)",
+        "value": "Non-reactive",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Syphilis (RPR) ............... Non-reactive"
+      },
+      {
+        "name": "Urine culture",
+        "value": "No growth",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Urine culture ................ No growth"
+      },
+      {
+        "name": "Cell-free DNA screen",
+        "value": "Low risk",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-06-15",
+        "abnormal": null,
+        "quote": "Cell-free DNA screen ......... Low risk"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": []
+  },
+  "9d45c436fbd2de43": {
+    "document_date": "2026-09-07",
+    "visit_reason": "Prenatal visit, 20 weeks",
+    "problems": [
+      {
+        "name": "Low-lying placenta",
+        "status": "active",
+        "quote": "Low-lying placenta: pelvic rest discussed, report any bleeding"
+      },
+      {
+        "name": "Nausea",
+        "status": "resolved",
+        "quote": "Nausea resolved around 16 weeks; she stopped the ondansetron"
+      }
+    ],
+    "medications": [
+      {
+        "name": "ondansetron",
+        "dose": null,
+        "frequency": null,
+        "action": "stopped",
+        "date": null,
+        "reason": "Nausea resolved",
+        "quote": "she stopped the ondansetron"
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "118/72",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-09-07",
+        "abnormal": false,
+        "quote": "BP 118/72"
+      },
+      {
+        "name": "Weight",
+        "value": "67.1",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-09-07",
+        "abnormal": null,
+        "quote": "Weight 67.1 kg"
+      },
+      {
+        "name": "Fundal height",
+        "value": "20",
+        "unit": "cm",
+        "reference_range": null,
+        "date": "2026-09-07",
+        "abnormal": null,
+        "quote": "Fundal height 20 cm"
+      },
+      {
+        "name": "FHR",
+        "value": "148",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-09-07",
+        "abnormal": null,
+        "quote": "FHR 148"
+      },
+      {
+        "name": "Fetal growth percentile",
+        "value": "52nd",
+        "unit": "percentile",
+        "reference_range": null,
+        "date": "2026-09-04",
+        "abnormal": false,
+        "quote": "growth 52nd percentile"
+      },
+      {
+        "name": "Placenta distance from internal os",
+        "value": "1.5",
+        "unit": "cm",
+        "reference_range": null,
+        "date": "2026-09-04",
+        "abnormal": null,
+        "quote": "1.5 cm from the internal os"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Anatomy ultrasound",
+        "kind": "test",
+        "status": "done",
+        "due": null,
+        "quote": "Anatomy ultrasound (2026-09-04): normal fetal anatomy"
+      },
+      {
+        "item": "Repeat ultrasound for placental location",
+        "kind": "test",
+        "status": "pending",
+        "due": "32 weeks",
+        "quote": "Repeat ultrasound for placental location at 32 weeks"
+      },
+      {
+        "item": "Glucose screen",
+        "kind": "test",
+        "status": "pending",
+        "due": "26 to 28 weeks",
+        "quote": "Glucose screen at 26 to 28 weeks"
+      },
+      {
+        "item": "Return visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "4 weeks",
+        "quote": "Return in 4 weeks"
+      }
+    ]
+  },
+  "28f021bff0ee20b6": {
+    "document_date": "2026-10-20",
+    "visit_reason": "Prenatal visit, 26 weeks",
+    "problems": [
+      {
+        "name": "low back pain",
+        "status": "active",
+        "quote": "Some low back pain at night."
+      },
+      {
+        "name": "pregnancy",
+        "status": "active",
+        "quote": "Prenatal visit \u2014 2026-10-20 \u2014 26w3d"
+      }
+    ],
+    "medications": [],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "124/78",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-10-20",
+        "abnormal": false,
+        "quote": "BP 124/78."
+      },
+      {
+        "name": "Weight",
+        "value": "69.8",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-10-20",
+        "abnormal": null,
+        "quote": "Weight 69.8 kg."
+      },
+      {
+        "name": "Fundal height",
+        "value": "26",
+        "unit": "cm",
+        "reference_range": null,
+        "date": "2026-10-20",
+        "abnormal": null,
+        "quote": "Fundal height 26 cm."
+      },
+      {
+        "name": "Fetal heart rate",
+        "value": "140",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-10-20",
+        "abnormal": null,
+        "quote": "FHR 140."
+      },
+      {
+        "name": "Urine protein",
+        "value": "negative",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-10-20",
+        "abnormal": false,
+        "quote": "Urine: protein negative."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "1-hour glucose challenge",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "1-hour glucose challenge and CBC ordered this week."
+      },
+      {
+        "item": "CBC",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "1-hour glucose challenge and CBC ordered this week."
+      },
+      {
+        "item": "Tdap",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "Tdap at next visit."
+      },
+      {
+        "item": "Prenatal follow-up visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "2026-11-17",
+        "quote": "Return in 4 weeks."
+      }
+    ]
+  },
+  "b74c79b2065e474e": {
+    "document_date": "2026-10-27",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [],
+    "labs": [
+      {
+        "name": "Glucose, 1-hour post 50 g load",
+        "value": "152",
+        "unit": "mg/dL",
+        "reference_range": "<140",
+        "date": "2026-10-27",
+        "abnormal": true,
+        "quote": "Glucose, 1-hour post 50 g load ..... 152 mg/dL HIGH (<140)"
+      },
+      {
+        "name": "Hemoglobin",
+        "value": "10.6",
+        "unit": "g/dL",
+        "reference_range": "11.0-15.0",
+        "date": "2026-10-27",
+        "abnormal": true,
+        "quote": "Hemoglobin ......................... 10.6 g/dL LOW (11.0-15.0)"
+      },
+      {
+        "name": "Hematocrit",
+        "value": "31.8",
+        "unit": "%",
+        "reference_range": "34.0-44.0",
+        "date": "2026-10-27",
+        "abnormal": true,
+        "quote": "Hematocrit ......................... 31.8 % LOW (34.0-44.0)"
+      },
+      {
+        "name": "Platelets",
+        "value": "221",
+        "unit": "x10^3/uL",
+        "reference_range": "150-400",
+        "date": "2026-10-27",
+        "abnormal": null,
+        "quote": "Platelets .......................... 221 x10^3/uL (150-400)"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": []
+  },
+  "458dd6f4ecc54b31": {
+    "document_date": "2026-11-17",
+    "visit_reason": "Prenatal visit, 30 weeks",
+    "problems": [
+      {
+        "name": "Abnormal glucose screen",
+        "status": "active",
+        "quote": "Abnormal glucose screen"
+      },
+      {
+        "name": "Anemia",
+        "status": "active",
+        "quote": "Anemia: started ferrous sulfate 325 mg daily."
+      },
+      {
+        "name": "Elevated blood pressure",
+        "status": "active",
+        "quote": "BP higher than earlier in pregnancy, below 140/90"
+      },
+      {
+        "name": "Headaches",
+        "status": "active",
+        "quote": "Occasional headaches in the evening that go away with rest and water"
+      },
+      {
+        "name": "Foot swelling",
+        "status": "active",
+        "quote": "Some swelling in the feet at the end of the day."
+      }
+    ],
+    "medications": [
+      {
+        "name": "prenatal vitamin",
+        "dose": null,
+        "frequency": null,
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Meds: prenatal vitamin."
+      },
+      {
+        "name": "ferrous sulfate",
+        "dose": "325 mg",
+        "frequency": "daily",
+        "action": "started",
+        "date": "2026-11-17",
+        "reason": "Anemia",
+        "quote": "started ferrous sulfate 325 mg daily."
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "132/84",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-11-17",
+        "abnormal": null,
+        "quote": "BP 132/84 (repeat 130/82)."
+      },
+      {
+        "name": "Blood pressure",
+        "value": "130/82",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-11-17",
+        "abnormal": null,
+        "quote": "BP 132/84 (repeat 130/82)."
+      },
+      {
+        "name": "Weight",
+        "value": "71.9",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-11-17",
+        "abnormal": null,
+        "quote": "Weight 71.9 kg."
+      },
+      {
+        "name": "Fundal height",
+        "value": "30",
+        "unit": "cm",
+        "reference_range": null,
+        "date": "2026-11-17",
+        "abnormal": null,
+        "quote": "Fundal height 30 cm."
+      },
+      {
+        "name": "Fetal heart rate",
+        "value": "144",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-11-17",
+        "abnormal": null,
+        "quote": "FHR 144."
+      },
+      {
+        "name": "Urine protein",
+        "value": "trace",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-11-17",
+        "abnormal": null,
+        "quote": "Urine protein trace."
+      },
+      {
+        "name": "1-hour glucose",
+        "value": "152",
+        "unit": null,
+        "reference_range": null,
+        "date": null,
+        "abnormal": true,
+        "quote": "1-hour glucose 152 (abnormal)."
+      },
+      {
+        "name": "Hemoglobin",
+        "value": "10.6",
+        "unit": null,
+        "reference_range": null,
+        "date": null,
+        "abnormal": true,
+        "quote": "Hemoglobin 10.6 (low)."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": [
+      {
+        "item": "3-hour glucose tolerance test",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "3-hour glucose tolerance test ordered. Patient will schedule it."
+      },
+      {
+        "item": "Home BP checks",
+        "kind": "other",
+        "status": "pending",
+        "due": null,
+        "quote": "home BP checks, call for 140/90 or higher"
+      },
+      {
+        "item": "Tdap",
+        "kind": "other",
+        "status": "done",
+        "due": null,
+        "quote": "Tdap given today."
+      },
+      {
+        "item": "Repeat ultrasound for placenta and growth",
+        "kind": "test",
+        "status": "pending",
+        "due": "32 weeks",
+        "quote": "Repeat ultrasound for placenta and growth at 32 weeks \u2014 to be scheduled."
+      },
+      {
+        "item": "Prenatal follow-up visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "2 weeks",
+        "quote": "Return in 2 weeks."
+      }
+    ]
+  },
+  "70602e4688d00f3d": {
+    "document_date": "2026-11-20",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [
+      {
+        "name": "Prenatal multivitamin with iron",
+        "dose": "1 tablet",
+        "frequency": "by mouth daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Prenatal multivitamin with iron, 1 tablet by mouth daily"
+      },
+      {
+        "name": "Ferrous sulfate",
+        "dose": "325 mg",
+        "frequency": "1 tablet by mouth daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Ferrous sulfate 325 mg, 1 tablet by mouth daily"
+      },
+      {
+        "name": "Ondansetron",
+        "dose": "4 mg ODT",
+        "frequency": "1 tablet every 8 hours as needed",
+        "action": "taking",
+        "date": null,
+        "reason": "nausea",
+        "quote": "Ondansetron 4 mg ODT, 1 tablet every 8 hours as needed for nausea"
+      }
+    ],
+    "labs": [],
+    "allergies": [
+      {
+        "substance": "Latex",
+        "reaction": "rash",
+        "quote": "Latex \u2014 rash"
+      }
+    ],
+    "no_known_allergies": null,
+    "open_items": []
+  }
+}

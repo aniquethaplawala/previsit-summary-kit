@@ -1,0 +1,756 @@
+{
+  "64b2403992a5b11b": {
+    "document_date": "2025-02-11",
+    "visit_reason": "Annual exam and diabetes check",
+    "problems": [
+      {
+        "name": "Type 2 diabetes mellitus",
+        "status": "active",
+        "quote": "Type 2 diabetes mellitus, diagnosed 2016"
+      },
+      {
+        "name": "Essential hypertension",
+        "status": "active",
+        "quote": "Essential hypertension"
+      },
+      {
+        "name": "Hyperlipidemia",
+        "status": "active",
+        "quote": "Hyperlipidemia"
+      },
+      {
+        "name": "Chronic kidney disease stage 3a",
+        "status": "active",
+        "quote": "Chronic kidney disease stage 3a"
+      },
+      {
+        "name": "Peripheral neuropathy",
+        "status": "active",
+        "quote": "Occasional tingling in both feet at night"
+      }
+    ],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dose": "1000 mg",
+        "frequency": "twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Metformin 1000 mg twice daily"
+      },
+      {
+        "name": "Glipizide",
+        "dose": "5 mg",
+        "frequency": "once daily with breakfast",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Glipizide 5 mg once daily with breakfast"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Lisinopril 20 mg daily"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "40 mg",
+        "frequency": "nightly",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Atorvastatin 40 mg nightly"
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "134/82",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "BP 134/82"
+      },
+      {
+        "name": "Heart rate",
+        "value": "76",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "HR 76"
+      },
+      {
+        "name": "Weight",
+        "value": "94.1",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "weight 94.1 kg"
+      },
+      {
+        "name": "BMI",
+        "value": "31.2",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "BMI 31.2"
+      },
+      {
+        "name": "Hemoglobin A1c",
+        "value": "7.2",
+        "unit": "%",
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "Hemoglobin A1c 7.2%"
+      },
+      {
+        "name": "eGFR",
+        "value": "58",
+        "unit": "mL/min/1.73m2",
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "eGFR 58 mL/min/1.73m2"
+      },
+      {
+        "name": "Creatinine",
+        "value": "1.28",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "Creatinine 1.28 mg/dL"
+      },
+      {
+        "name": "LDL",
+        "value": "88",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": "2025-02-11",
+        "abnormal": null,
+        "quote": "LDL 88 mg/dL"
+      }
+    ],
+    "allergies": [
+      {
+        "substance": "Sulfa drugs",
+        "reaction": "rash",
+        "quote": "Sulfa drugs (rash)."
+      }
+    ],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Diabetic eye exam",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Referred to ophthalmology for diabetic eye exam"
+      },
+      {
+        "item": "Follow up",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "6 months",
+        "quote": "Follow up in 6 months."
+      }
+    ]
+  },
+  "487951ee240f403d": {
+    "document_date": "2025-08-19",
+    "visit_reason": "6-month diabetes follow-up",
+    "problems": [
+      {
+        "name": "T2DM",
+        "status": "active",
+        "quote": "T2DM, A1c up to 7.6%"
+      },
+      {
+        "name": "CKD 3a",
+        "status": "active",
+        "quote": "CKD 3a, eGFR 55, stable to slightly lower"
+      },
+      {
+        "name": "HTN",
+        "status": "active",
+        "quote": "HTN, at goal for now"
+      }
+    ],
+    "medications": [
+      {
+        "name": "metformin",
+        "dose": "1000 mg",
+        "frequency": "BID",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "metformin 1000 mg BID"
+      },
+      {
+        "name": "glipizide",
+        "dose": "5 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "glipizide 5 mg daily"
+      },
+      {
+        "name": "lisinopril",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "lisinopril 20 mg daily"
+      },
+      {
+        "name": "atorvastatin",
+        "dose": "40 mg",
+        "frequency": "nightly",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "atorvastatin 40 mg nightly"
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "136/84",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": null,
+        "quote": "BP 136/84"
+      },
+      {
+        "name": "Heart rate",
+        "value": "78",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": null,
+        "quote": "HR 78"
+      },
+      {
+        "name": "Weight",
+        "value": "95.0",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": null,
+        "quote": "weight 95.0 kg"
+      },
+      {
+        "name": "Hemoglobin A1c",
+        "value": "7.6",
+        "unit": "%",
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": true,
+        "quote": "A1c 7.6%"
+      },
+      {
+        "name": "eGFR",
+        "value": "55",
+        "unit": "mL/min/1.73m2",
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": true,
+        "quote": "eGFR 55 mL/min/1.73m2"
+      },
+      {
+        "name": "Creatinine",
+        "value": "1.36",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": true,
+        "quote": "Creatinine 1.36 mg/dL"
+      },
+      {
+        "name": "Potassium",
+        "value": "4.6",
+        "unit": "mmol/L",
+        "reference_range": null,
+        "date": "2025-08-19",
+        "abnormal": null,
+        "quote": "Potassium 4.6 mmol/L"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Diabetic eye exam",
+        "kind": "screening",
+        "status": "pending",
+        "due": null,
+        "quote": "Diabetic eye exam: overdue. Referral re-sent to ophthalmology"
+      },
+      {
+        "item": "Ophthalmology referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Referral re-sent to ophthalmology"
+      },
+      {
+        "item": "Return visit with labs",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "6 months",
+        "quote": "Return in 6 months with labs"
+      }
+    ]
+  },
+  "e5b421f0cae25c1e": {
+    "document_date": "2026-03-04",
+    "visit_reason": "Diabetes follow-up",
+    "problems": [
+      {
+        "name": "Hypoglycemia on sulfonylurea",
+        "status": "active",
+        "quote": "Hypoglycemia on sulfonylurea."
+      },
+      {
+        "name": "T2DM above goal",
+        "status": "active",
+        "quote": "T2DM above goal."
+      },
+      {
+        "name": "CKD 3a with albuminuria",
+        "status": "active",
+        "quote": "CKD 3a with albuminuria."
+      }
+    ],
+    "medications": [
+      {
+        "name": "glipizide",
+        "dose": null,
+        "frequency": null,
+        "action": "stopped",
+        "date": "2026-03-04",
+        "reason": "low sugars",
+        "quote": "Glipizide stopped today because of the low sugars."
+      },
+      {
+        "name": "empagliflozin",
+        "dose": "10 mg",
+        "frequency": "once daily",
+        "action": "started",
+        "date": "2026-03-04",
+        "reason": "T2DM above goal",
+        "quote": "Started empagliflozin 10 mg once daily"
+      },
+      {
+        "name": "metformin",
+        "dose": "1000 mg",
+        "frequency": "twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Continue metformin 1000 mg twice daily."
+      },
+      {
+        "name": "lisinopril",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": "CKD 3a with albuminuria",
+        "quote": "Continue lisinopril 20 mg daily."
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "138/84",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-03-04",
+        "abnormal": null,
+        "quote": "BP 138/84."
+      },
+      {
+        "name": "Weight",
+        "value": "94.6",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-03-04",
+        "abnormal": null,
+        "quote": "Weight 94.6 kg."
+      },
+      {
+        "name": "Hemoglobin A1c",
+        "value": "7.9",
+        "unit": "%",
+        "reference_range": null,
+        "date": "2026-03-04",
+        "abnormal": null,
+        "quote": "Hemoglobin A1c 7.9%."
+      },
+      {
+        "name": "eGFR",
+        "value": "52",
+        "unit": "mL/min/1.73m2",
+        "reference_range": null,
+        "date": "2026-03-04",
+        "abnormal": null,
+        "quote": "eGFR 52 mL/min/1.73m2."
+      },
+      {
+        "name": "Urine albumin-to-creatinine ratio",
+        "value": "45",
+        "unit": "mg/g",
+        "reference_range": null,
+        "date": "2026-03-04",
+        "abnormal": true,
+        "quote": "Urine albumin-to-creatinine ratio 45 mg/g (high)"
+      },
+      {
+        "name": "home glucose",
+        "value": "58",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": null,
+        "abnormal": true,
+        "quote": "home glucose 58 and 61 mg/dL"
+      },
+      {
+        "name": "home glucose",
+        "value": "61",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": null,
+        "abnormal": true,
+        "quote": "home glucose 58 and 61 mg/dL"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Eye exam",
+        "kind": "screening",
+        "status": "pending",
+        "due": null,
+        "quote": "Eye exam: still not done."
+      },
+      {
+        "item": "Ophthalmology referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Patient will call ophthalmology himself."
+      },
+      {
+        "item": "Follow up in 3 months with labs",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "3 months",
+        "quote": "Follow up in 3 months with labs."
+      }
+    ]
+  },
+  "6effb7099bbaeec6": {
+    "document_date": "2026-06-12",
+    "visit_reason": "Diabetes and CKD follow-up",
+    "problems": [
+      {
+        "name": "CKD stage 3a progressing toward 3b",
+        "status": "active",
+        "quote": "CKD stage 3a progressing toward 3b, with rising albuminuria."
+      },
+      {
+        "name": "Rising albuminuria",
+        "status": "active",
+        "quote": "CKD stage 3a progressing toward 3b, with rising albuminuria."
+      },
+      {
+        "name": "T2DM",
+        "status": "active",
+        "quote": "T2DM: A1c 8.1%. Continue empagliflozin 10 mg daily."
+      },
+      {
+        "name": "HTN",
+        "status": "active",
+        "quote": "HTN: BP above goal today; recheck at next visit."
+      }
+    ],
+    "medications": [
+      {
+        "name": "glipizide",
+        "dose": null,
+        "frequency": null,
+        "action": "stopped",
+        "date": null,
+        "reason": "low sugars",
+        "quote": "No further low sugars since glipizide was stopped."
+      },
+      {
+        "name": "empagliflozin",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Tolerating empagliflozin."
+      },
+      {
+        "name": "metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "action": "changed",
+        "date": "2026-06-12",
+        "reason": "falling eGFR",
+        "quote": "Metformin reduced to 500 mg twice daily because of the falling eGFR."
+      },
+      {
+        "name": "empagliflozin",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Continue empagliflozin 10 mg daily."
+      }
+    ],
+    "labs": [
+      {
+        "name": "Blood pressure",
+        "value": "140/86",
+        "unit": "mmHg",
+        "reference_range": null,
+        "date": "2026-06-12",
+        "abnormal": true,
+        "quote": "BP 140/86."
+      },
+      {
+        "name": "Weight",
+        "value": "93.2",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-06-12",
+        "abnormal": null,
+        "quote": "Weight 93.2 kg."
+      },
+      {
+        "name": "A1c",
+        "value": "8.1",
+        "unit": "%",
+        "reference_range": null,
+        "date": "2026-06-10",
+        "abnormal": true,
+        "quote": "A1c 8.1%."
+      },
+      {
+        "name": "eGFR",
+        "value": "47",
+        "unit": "mL/min/1.73m2",
+        "reference_range": null,
+        "date": "2026-06-10",
+        "abnormal": null,
+        "quote": "eGFR 47 mL/min/1.73m2."
+      },
+      {
+        "name": "Creatinine",
+        "value": "1.55",
+        "unit": "mg/dL",
+        "reference_range": null,
+        "date": "2026-06-10",
+        "abnormal": null,
+        "quote": "Creatinine 1.55 mg/dL."
+      },
+      {
+        "name": "UACR",
+        "value": "120",
+        "unit": "mg/g",
+        "reference_range": null,
+        "date": "2026-06-10",
+        "abnormal": null,
+        "quote": "UACR 120 mg/g."
+      },
+      {
+        "name": "Potassium",
+        "value": "4.9",
+        "unit": "mmol/L",
+        "reference_range": null,
+        "date": "2026-06-10",
+        "abnormal": null,
+        "quote": "Potassium 4.9 mmol/L."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Nephrology referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Referral placed to nephrology."
+      },
+      {
+        "item": "Ophthalmology referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "patient says the clinic never called him back. Will work on it."
+      },
+      {
+        "item": "Blood pressure recheck",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "next visit",
+        "quote": "BP above goal today; recheck at next visit."
+      },
+      {
+        "item": "Labs",
+        "kind": "test",
+        "status": "pending",
+        "due": "in 3 months",
+        "quote": "Labs in 3 months, visit in 5 months."
+      },
+      {
+        "item": "Follow-up visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "in 5 months",
+        "quote": "Labs in 3 months, visit in 5 months."
+      }
+    ]
+  },
+  "83c556de86921abf": {
+    "document_date": "2026-09-30",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [],
+    "labs": [
+      {
+        "name": "Hemoglobin A1c",
+        "value": "8.4",
+        "unit": "%",
+        "reference_range": "<5.7",
+        "date": "2026-09-30",
+        "abnormal": true,
+        "quote": "Hemoglobin A1c 8.4 H % <5.7"
+      },
+      {
+        "name": "Creatinine",
+        "value": "1.68",
+        "unit": "mg/dL",
+        "reference_range": "0.70-1.30",
+        "date": "2026-09-30",
+        "abnormal": true,
+        "quote": "Creatinine 1.68 H mg/dL 0.70-1.30"
+      },
+      {
+        "name": "eGFR (CKD-EPI 2021)",
+        "value": "44",
+        "unit": "mL/min/1.73m2",
+        "reference_range": ">59",
+        "date": "2026-09-30",
+        "abnormal": true,
+        "quote": "eGFR (CKD-EPI 2021) 44 L mL/min/1.73m2 >59"
+      },
+      {
+        "name": "Potassium",
+        "value": "5.0",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.3",
+        "date": "2026-09-30",
+        "abnormal": null,
+        "quote": "Potassium 5.0 mmol/L 3.5-5.3"
+      },
+      {
+        "name": "Albumin/Creatinine Ratio, Urine",
+        "value": "168",
+        "unit": "mg/g creat",
+        "reference_range": "<30",
+        "date": "2026-09-30",
+        "abnormal": true,
+        "quote": "Albumin/Creatinine Ratio, Urine 168 H mg/g creat <30"
+      },
+      {
+        "name": "LDL Cholesterol (calc)",
+        "value": "92",
+        "unit": "mg/dL",
+        "reference_range": "<100",
+        "date": "2026-09-30",
+        "abnormal": null,
+        "quote": "LDL Cholesterol (calc) 92 mg/dL <100"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": []
+  },
+  "2649d42bf0530b11": {
+    "document_date": "2026-10-01",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [
+      {
+        "name": "Metformin HCl",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Metformin HCl 500 mg tablet 1 tab by mouth twice daily"
+      },
+      {
+        "name": "Glipizide",
+        "dose": "5 mg",
+        "frequency": "daily w/ breakfast",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Glipizide 5 mg tablet 1 tab by mouth daily w/ breakfast"
+      },
+      {
+        "name": "Empagliflozin",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Empagliflozin 10 mg tablet 1 tab by mouth daily"
+      },
+      {
+        "name": "Lisinopril",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Lisinopril 20 mg tablet 1 tab by mouth daily"
+      },
+      {
+        "name": "Atorvastatin",
+        "dose": "40 mg",
+        "frequency": "at bedtime",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Atorvastatin 40 mg tablet 1 tab by mouth at bedtime"
+      }
+    ],
+    "labs": [],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": []
+  }
+}

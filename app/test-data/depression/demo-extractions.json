@@ -1,0 +1,396 @@
+{
+  "7ac106520343c1f1": {
+    "document_date": "2025-11-05",
+    "visit_reason": "low mood for 3 months",
+    "problems": [
+      {
+        "name": "Major depressive disorder, single episode, moderate",
+        "status": "active",
+        "quote": "Major depressive disorder, single episode, moderate."
+      },
+      {
+        "name": "Generalized anxiety symptoms",
+        "status": "active",
+        "quote": "Generalized anxiety symptoms."
+      },
+      {
+        "name": "poor sleep",
+        "status": "active",
+        "quote": "patient reports low mood, poor sleep, low energy"
+      },
+      {
+        "name": "low energy",
+        "status": "active",
+        "quote": "patient reports low mood, poor sleep, low energy"
+      },
+      {
+        "name": "trouble concentrating at work",
+        "status": "active",
+        "quote": "trouble concentrating at work since August"
+      }
+    ],
+    "medications": [
+      {
+        "name": "sertraline",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "action": "started",
+        "date": "2025-11-05",
+        "reason": "Major depressive disorder",
+        "quote": "Started sertraline 50 mg daily."
+      }
+    ],
+    "labs": [
+      {
+        "name": "PHQ-9",
+        "value": "14",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-11-05",
+        "abnormal": true,
+        "quote": "PHQ-9: 14."
+      },
+      {
+        "name": "GAD-7",
+        "value": "11",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-11-05",
+        "abnormal": true,
+        "quote": "GAD-7: 11."
+      }
+    ],
+    "allergies": [
+      {
+        "substance": "codeine",
+        "reaction": "nausea",
+        "quote": "codeine (nausea)."
+      }
+    ],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Behavioral health referral for cognitive behavioral therapy (CBT)",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Referred to behavioral health for cognitive behavioral therapy"
+      },
+      {
+        "item": "Follow up in 8 weeks",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "8 weeks",
+        "quote": "Follow up in 8 weeks."
+      }
+    ]
+  },
+  "fc9d0c7689ab615f": {
+    "document_date": "2026-01-07",
+    "visit_reason": "Depression follow-up",
+    "problems": [
+      {
+        "name": "MDD",
+        "status": "active",
+        "quote": "MDD improving but not in remission."
+      }
+    ],
+    "medications": [
+      {
+        "name": "sertraline",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "action": "changed",
+        "date": "2026-01-07",
+        "reason": "MDD improving but not in remission",
+        "quote": "Sertraline increased to 100 mg daily."
+      }
+    ],
+    "labs": [
+      {
+        "name": "PHQ-9",
+        "value": "9",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-01-07",
+        "abnormal": null,
+        "quote": "PHQ-9: 9."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "CBT (behavioral health)",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "On the behavioral health waitlist for CBT, no appointment yet."
+      },
+      {
+        "item": "Depression follow-up",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "3 months",
+        "quote": "Follow up in 3 months."
+      }
+    ]
+  },
+  "0aaf68a450bbd0dc": {
+    "document_date": "2026-04-15",
+    "visit_reason": "Depression follow-up",
+    "problems": [
+      {
+        "name": "MDD, partial response with side effects",
+        "status": "active",
+        "quote": "MDD, partial response with side effects."
+      }
+    ],
+    "medications": [
+      {
+        "name": "sertraline",
+        "dose": "50 mg",
+        "frequency": "daily",
+        "action": "stopped",
+        "date": null,
+        "reason": "sexual side effects; switching to escitalopram",
+        "quote": "take sertraline 50 mg daily for 1 week, then stop sertraline."
+      },
+      {
+        "name": "escitalopram",
+        "dose": "10 mg",
+        "frequency": "daily",
+        "action": "started",
+        "date": "2026-04-15",
+        "reason": "MDD, partial response with side effects on sertraline",
+        "quote": "start escitalopram 10 mg daily"
+      }
+    ],
+    "labs": [
+      {
+        "name": "PHQ-9",
+        "value": "8",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-04-15",
+        "abnormal": null,
+        "quote": "PHQ-9: 8."
+      },
+      {
+        "name": "GAD-7",
+        "value": "7",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-04-15",
+        "abnormal": null,
+        "quote": "GAD-7: 7."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": [
+      {
+        "item": "Therapy referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Therapy referral re-sent."
+      },
+      {
+        "item": "Follow up in 3 months",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "3 months",
+        "quote": "Follow up in 3 months."
+      }
+    ]
+  },
+  "a9f6e211c452dcdf": {
+    "document_date": "2026-08-19",
+    "visit_reason": "Depression follow-up",
+    "problems": [
+      {
+        "name": "MDD",
+        "status": "active",
+        "quote": "MDD, worse with job loss."
+      },
+      {
+        "name": "Insomnia",
+        "status": "active",
+        "quote": "Insomnia: started trazodone 50 mg at bedtime"
+      }
+    ],
+    "medications": [
+      {
+        "name": "escitalopram",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "action": "changed",
+        "date": "2026-08-19",
+        "reason": "MDD, worse with job loss.",
+        "quote": "Escitalopram increased to 20 mg daily."
+      },
+      {
+        "name": "trazodone",
+        "dose": "50 mg",
+        "frequency": "at bedtime as needed",
+        "action": "started",
+        "date": "2026-08-19",
+        "reason": "Insomnia",
+        "quote": "started trazodone 50 mg at bedtime as needed."
+      }
+    ],
+    "labs": [
+      {
+        "name": "PHQ-9",
+        "value": "13",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-19",
+        "abnormal": null,
+        "quote": "PHQ-9: 13."
+      },
+      {
+        "name": "GAD-7",
+        "value": "12",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-19",
+        "abnormal": null,
+        "quote": "GAD-7: 12."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Community counseling center referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Gave the patient the direct number for the community counseling center."
+      },
+      {
+        "item": "Depression follow-up",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "2 months",
+        "quote": "Follow up in 2 months, sooner if needed."
+      }
+    ]
+  },
+  "ebf2feb5b3ed185e": {
+    "document_date": "2026-10-21",
+    "visit_reason": "Telehealth follow-up for worse mood",
+    "problems": [
+      {
+        "name": "MDD, moderately severe",
+        "status": "active",
+        "quote": "MDD, moderately severe, not responding to current dose"
+      },
+      {
+        "name": "Poor sleep",
+        "status": "active",
+        "quote": "sleeping poorly even with trazodone"
+      },
+      {
+        "name": "Low motivation",
+        "status": "active",
+        "quote": "Low motivation, not running anymore"
+      }
+    ],
+    "medications": [
+      {
+        "name": "escitalopram",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Taking escitalopram 20 mg daily"
+      },
+      {
+        "name": "trazodone",
+        "dose": null,
+        "frequency": null,
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "sleeping poorly even with trazodone"
+      }
+    ],
+    "labs": [
+      {
+        "name": "PHQ-9",
+        "value": "18",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-10-21",
+        "abnormal": true,
+        "quote": "PHQ-9: 18"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Therapy / counseling",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Has not started therapy; the counseling center had a 3-month wait"
+      },
+      {
+        "item": "In-person follow-up visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "about 6 weeks",
+        "quote": "In-person follow-up in about 6 weeks"
+      }
+    ]
+  },
+  "eb588840b4c369d7": {
+    "document_date": "2026-11-10",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [
+      {
+        "name": "Escitalopram",
+        "dose": "20 mg",
+        "frequency": "1 tab daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Escitalopram 20 mg tab ......... 1 tab daily"
+      },
+      {
+        "name": "Sertraline",
+        "dose": "100 mg",
+        "frequency": "1 tab daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Sertraline 100 mg tab .......... 1 tab daily"
+      },
+      {
+        "name": "Trazodone",
+        "dose": "50 mg",
+        "frequency": "1 tab at bedtime as needed for sleep",
+        "action": "taking",
+        "date": null,
+        "reason": "sleep",
+        "quote": "Trazodone 50 mg tab ............ 1 tab at bedtime as needed for sleep"
+      }
+    ],
+    "labs": [],
+    "allergies": [
+      {
+        "substance": "Codeine",
+        "reaction": "nausea",
+        "quote": "ALLERGIES: Codeine (nausea)"
+      }
+    ],
+    "no_known_allergies": null,
+    "open_items": []
+  }
+}

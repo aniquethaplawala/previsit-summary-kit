@@ -1,0 +1,12 @@
+QUEST DIAGNOSTICS — FINAL REPORT
+Patient: ALVAREZ, ROBERT   DOB: 03/18/1962
+Collected: 2026-09-30 08:12   Reported: 2026-09-30 16:40
+Ordering: Maya Chen, MD
+
+TEST                              RESULT     FLAG   UNITS            REFERENCE
+Hemoglobin A1c                    8.4        H      %                <5.7
+Creatinine                        1.68       H      mg/dL            0.70-1.30
+eGFR (CKD-EPI 2021)               44         L      mL/min/1.73m2    >59
+Potassium                         5.0               mmol/L           3.5-5.3
+Albumin/Creatinine Ratio, Urine   168        H      mg/g creat       <30
+LDL Cholesterol (calc)            92                mg/dL            <100

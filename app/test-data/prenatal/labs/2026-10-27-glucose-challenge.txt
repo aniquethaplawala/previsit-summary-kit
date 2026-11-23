@@ -1,0 +1,7 @@
+LabCorp     Collected 2026-10-27   Reported 2026-10-27
+Patient: KARIM, AISHA
+
+Glucose, 1-hour post 50 g load ..... 152 mg/dL   HIGH   (<140)
+Hemoglobin ......................... 10.6 g/dL   LOW    (11.0-15.0)
+Hematocrit ......................... 31.8 %      LOW    (34.0-44.0)
+Platelets .......................... 221 x10^3/uL       (150-400)

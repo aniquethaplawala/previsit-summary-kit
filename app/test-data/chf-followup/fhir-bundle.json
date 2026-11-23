@@ -1,0 +1,1186 @@
+{
+  "resourceType": "Bundle",
+  "id": "whitfield-export",
+  "type": "collection",
+  "timestamp": "2026-11-20T09:00:00Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:pt-whitfield",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-whitfield",
+        "name": [
+          {
+            "given": [
+              "Dolores"
+            ],
+            "family": "Whitfield"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1947-07-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-1",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "703272007",
+              "display": "Heart failure with reduced ejection fraction"
+            }
+          ],
+          "text": "Heart failure with reduced ejection fraction"
+        },
+        "onsetDateTime": "2023-04-11",
+        "recordedDate": "2023-04-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-2",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "440059007",
+              "display": "Persistent atrial fibrillation"
+            }
+          ],
+          "text": "Persistent atrial fibrillation"
+        },
+        "onsetDateTime": "2022-09-30",
+        "recordedDate": "2022-09-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-3",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "onsetDateTime": "2015-02-02",
+        "recordedDate": "2015-02-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-4",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "40930008",
+              "display": "Hypothyroidism"
+            }
+          ],
+          "text": "Hypothyroidism"
+        },
+        "onsetDateTime": "2018-06-19",
+        "recordedDate": "2018-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cond-5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-5",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "14669001",
+              "display": "Acute kidney injury"
+            }
+          ],
+          "text": "Acute kidney injury"
+        },
+        "onsetDateTime": "2023-04-15",
+        "recordedDate": "2023-04-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-6",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-6",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1656354",
+              "display": "Sacubitril/valsartan 49/51 mg tablet"
+            }
+          ],
+          "text": "Sacubitril/valsartan 49/51 mg tablet"
+        },
+        "authoredOn": "2024-01-09",
+        "dosageInstruction": [
+          {
+            "text": "1 tablet twice daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-7",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-7",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "866427",
+              "display": "Metoprolol succinate ER 100 mg tablet"
+            }
+          ],
+          "text": "Metoprolol succinate ER 100 mg tablet"
+        },
+        "authoredOn": "2023-05-02",
+        "dosageInstruction": [
+          {
+            "text": "100 mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-8",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-8",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "313096",
+              "display": "Spironolactone 25 mg tablet"
+            }
+          ],
+          "text": "Spironolactone 25 mg tablet"
+        },
+        "authoredOn": "2023-05-02",
+        "dosageInstruction": [
+          {
+            "text": "25 mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-9",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-9",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "310429",
+              "display": "Furosemide 40 mg tablet"
+            }
+          ],
+          "text": "Furosemide 40 mg tablet"
+        },
+        "authoredOn": "2023-04-20",
+        "dosageInstruction": [
+          {
+            "text": "40 mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-10",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-10",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1364445",
+              "display": "Apixaban 5 mg tablet"
+            }
+          ],
+          "text": "Apixaban 5 mg tablet"
+        },
+        "authoredOn": "2022-10-03",
+        "dosageInstruction": [
+          {
+            "text": "5 mg twice daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-11",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-11",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "966247",
+              "display": "Levothyroxine 75 mcg tablet"
+            }
+          ],
+          "text": "Levothyroxine 75 mcg tablet"
+        },
+        "authoredOn": "2018-06-19",
+        "dosageInstruction": [
+          {
+            "text": "75 mcg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:medrx-12",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "medrx-12",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "status": "stopped",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "314076",
+              "display": "Lisinopril 10 mg tablet"
+            }
+          ],
+          "text": "Lisinopril 10 mg tablet"
+        },
+        "authoredOn": "2023-05-02",
+        "dosageInstruction": [
+          {
+            "text": "10 mg once daily"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:allergy-13",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "allergy-13",
+        "patient": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin"
+            }
+          ],
+          "text": "Penicillin"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "247472004",
+                    "display": "Hives"
+                  }
+                ],
+                "text": "Hives"
+              }
+            ]
+          }
+        ],
+        "recordedDate": "2009-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-14",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-14",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33762-6",
+              "display": "NT-proBNP"
+            }
+          ],
+          "text": "NT-proBNP"
+        },
+        "effectiveDateTime": "2025-12-02",
+        "valueQuantity": {
+          "value": 1450,
+          "unit": "pg/mL"
+        },
+        "referenceRange": [
+          {
+            "text": "<450"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-15",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-15",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "effectiveDateTime": "2025-12-02",
+        "valueQuantity": {
+          "value": 4.8,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3.5-5.1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-16",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-16",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "effectiveDateTime": "2025-12-02",
+        "valueQuantity": {
+          "value": 1,
+          "unit": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "text": "0.5-1.1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-17",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-17",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "effectiveDateTime": "2025-12-02",
+        "valueQuantity": {
+          "value": 68.2,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-18",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-18",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure"
+            }
+          ],
+          "text": "Blood pressure"
+        },
+        "effectiveDateTime": "2025-12-02",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 116,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 70,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-19",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-19",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33762-6",
+              "display": "NT-proBNP"
+            }
+          ],
+          "text": "NT-proBNP"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "valueQuantity": {
+          "value": 2100,
+          "unit": "pg/mL"
+        },
+        "referenceRange": [
+          {
+            "text": "<450"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-20",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-20",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "valueQuantity": {
+          "value": 5.6,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3.5-5.1"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-21",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-21",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "text": "0.5-1.1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-22",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-22",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "valueQuantity": {
+          "value": 69,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-23",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-23",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure"
+            }
+          ],
+          "text": "Blood pressure"
+        },
+        "effectiveDateTime": "2026-05-14",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 118,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 68,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-24",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-24",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33762-6",
+              "display": "NT-proBNP"
+            }
+          ],
+          "text": "NT-proBNP"
+        },
+        "effectiveDateTime": "2026-10-28",
+        "valueQuantity": {
+          "value": 3380,
+          "unit": "pg/mL"
+        },
+        "referenceRange": [
+          {
+            "text": "<450"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-25",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-25",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "effectiveDateTime": "2026-10-28",
+        "valueQuantity": {
+          "value": 4.6,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3.5-5.1"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-26",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-26",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2160-0",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "effectiveDateTime": "2026-10-28",
+        "valueQuantity": {
+          "value": 1.3,
+          "unit": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "text": "0.5-1.1"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-27",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-27",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "effectiveDateTime": "2026-10-28",
+        "valueQuantity": {
+          "value": 72.4,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-28",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-28",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure"
+            }
+          ],
+          "text": "Blood pressure"
+        },
+        "effectiveDateTime": "2026-10-28",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 126,
+              "unit": "mmHg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 74,
+              "unit": "mmHg"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-29",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-29",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "10230-1",
+              "display": "Left ventricular ejection fraction (echo)"
+            }
+          ],
+          "text": "Left ventricular ejection fraction (echo)"
+        },
+        "effectiveDateTime": "2025-12-02",
+        "valueQuantity": {
+          "value": 30,
+          "unit": "%"
+        },
+        "referenceRange": [
+          {
+            "text": "52-74"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-30",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-30",
+        "status": "finished",
+        "class": {
+          "code": "AMB"
+        },
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "type": [
+          {
+            "text": "Cardiology clinic visit"
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Heart failure follow-up and echocardiogram"
+          }
+        ],
+        "period": {
+          "start": "2025-12-02",
+          "end": "2025-12-02"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-31",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-31",
+        "status": "finished",
+        "class": {
+          "code": "AMB"
+        },
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "type": [
+          {
+            "text": "Cardiology clinic visit"
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Heart failure follow-up"
+          }
+        ],
+        "period": {
+          "start": "2026-05-14",
+          "end": "2026-05-14"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:enc-32",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-32",
+        "status": "finished",
+        "class": {
+          "code": "AMB"
+        },
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "type": [
+          {
+            "text": "Heart failure clinic visit"
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Worsening shortness of breath"
+          }
+        ],
+        "period": {
+          "start": "2026-10-28",
+          "end": "2026-10-28"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:doc-33",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc-33",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11488-4",
+              "display": "Consult note"
+            }
+          ],
+          "text": "Consult note"
+        },
+        "date": "2026-05-14T17:00:00Z",
+        "description": "Cardiology clinic note",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Q2FyZGlvbG9neSBjbGluaWMg4oCUIDIwMjYtMDUtMTQKQ2xpbmljaWFuOiBTYW11ZWwgT2thZm9yLCBNRCAoQ2FyZGlvbG9neSkKCkhQSTogNzgteWVhci1vbGQgd29tYW4gd2l0aCBIRnJFRiAoRUYgMzAlIG9uIGVjaG8gMjAyNS0xMi0wMikgYW5kIHBlcnNpc3RlbnQgYXRyaWFsIGZpYnJpbGxhdGlvbiBvbiBhcGl4YWJhbiwgaGVyZSBmb3Igcm91dGluZSBmb2xsb3ctdXAuIE5ZSEEgY2xhc3MgSUkuIFdhbGtzIHRvIHRoZSBtYWlsYm94IGFuZCBiYWNrIHdpdGhvdXQgc3RvcHBpbmcuIE1pbGQgYW5rbGUgc3dlbGxpbmcgaW4gdGhlIGV2ZW5pbmdzLgoKTWVkaWNhdGlvbnM6IHNhY3ViaXRyaWwvdmFsc2FydGFuIDQ5LzUxIG1nIHR3aWNlIGRhaWx5LCBtZXRvcHJvbG9sIHN1Y2NpbmF0ZSAxMDAgbWcgZGFpbHksIHNwaXJvbm9sYWN0b25lIDI1IG1nIGRhaWx5LCBmdXJvc2VtaWRlIDQwIG1nIGRhaWx5LCBhcGl4YWJhbiA1IG1nIHR3aWNlIGRhaWx5LCBsZXZvdGh5cm94aW5lIDc1IG1jZyBkYWlseS4KQWxsZXJnaWVzOiBOS0RBLgoKRXhhbTogQlAgMTE4LzY4LCBIUiA3MiBpcnJlZ3VsYXIsIHdlaWdodCA2OS4wIGtnLiBUcmFjZSBiaWxhdGVyYWwgYW5rbGUgZWRlbWEuIEx1bmdzIGNsZWFyLgpMYWJzIHRvZGF5OiBwb3Rhc3NpdW0gNS42IG1tb2wvTCAoaGlnaCksIGNyZWF0aW5pbmUgMS4xIG1nL2RMLCBOVC1wcm9CTlAgMjEwMCBwZy9tTC4KCkFzc2Vzc21lbnQvUGxhbjoKMS4gSHlwZXJrYWxlbWlhLCBLIDUuNi4gU3Bpcm9ub2xhY3RvbmUgc3RvcHBlZC4gUmVwZWF0IEJNUCBpbiAxIHdlZWsuCjIuIEhGckVGLCBldXZvbGVtaWMgdG8gbWlsZGx5IG92ZXJsb2FkZWQuIENvbnRpbnVlIHNhY3ViaXRyaWwvdmFsc2FydGFuLCBtZXRvcHJvbG9sLCBmdXJvc2VtaWRlLgozLiBBRiwgcmF0ZSBjb250cm9sbGVkLiBDb250aW51ZSBhcGl4YWJhbi4KNC4gUmVmZXJyZWQgdG8gY2FyZGlhYyByZWhhYmlsaXRhdGlvbiBhdCBTdC4gTWFyeSdzLgo1LiBSZXR1cm4gaW4gMyB0byA0IG1vbnRocy4K"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:doc-34",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc-34",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/pt-whitfield"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11488-4",
+              "display": "Consult note"
+            }
+          ],
+          "text": "Consult note"
+        },
+        "date": "2026-10-28T17:00:00Z",
+        "description": "Heart failure clinic note",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "SGVhcnQgZmFpbHVyZSBjbGluaWMg4oCUIDIwMjYtMTAtMjgKQ2xpbmljaWFuOiBTYW11ZWwgT2thZm9yLCBNRCAoQ2FyZGlvbG9neSkKCkludGVydmFsOiBFRCB2aXNpdCAyMDI2LTA4LTAzIGZvciBzaG9ydG5lc3Mgb2YgYnJlYXRoLCB0cmVhdGVkIHdpdGggSVYgZnVyb3NlbWlkZSBhbmQgc2VudCBob21lLiBTaW5jZSB0aGVuIG1vcmUgc2hvcnQgb2YgYnJlYXRoIGNsaW1iaW5nIG9uZSBmbGlnaHQgb2Ygc3RhaXJzLCBzbGVlcGluZyBvbiAyIHBpbGxvd3MgKHdhcyAxKS4gV2VpZ2h0IHVwIGFib3V0IDMga2cgaW4gYSBtb250aCBhdCBob21lLiBSZXBvcnRzIHRha2luZyBhbGwgbWVkaWNpbmVzLiBTYXlzIHNoZSBuZXZlciBnb3QgYSBjYWxsIGZyb20gY2FyZGlhYyByZWhhYi4KCkV4YW06IEJQIDEyNi83NCwgSFIgODQgaXJyZWd1bGFyLCB3ZWlnaHQgNzIuNCBrZy4gMSsgcGl0dGluZyBlZGVtYSB0byBtaWQtc2hpbi4gRmFpbnQgYmliYXNpbGFyIGNyYWNrbGVzLiBKVlAgMTAgY20uCkxhYnMgdG9kYXk6IE5ULXByb0JOUCAzMzgwIHBnL21MIChoaWdoKSwgcG90YXNzaXVtIDQuNiBtbW9sL0wsIGNyZWF0aW5pbmUgMS4zIG1nL2RMLgoKQXNzZXNzbWVudC9QbGFuOgoxLiBBY3V0ZSBvbiBjaHJvbmljIEhGckVGLCB2b2x1bWUgb3ZlcmxvYWRlZC4gRnVyb3NlbWlkZSBpbmNyZWFzZWQgZnJvbSA0MCBtZyBvbmNlIGRhaWx5IHRvIDQwIG1nIHR3aWNlIGRhaWx5LiBEYWlseSB3ZWlnaHRzOyBjYWxsIGlmIHVwIDEga2cgaW4gYSBkYXkgb3IgMiBrZyBpbiBhIHdlZWsuCjIuIFJlcGVhdCBlY2hvY2FyZGlvZ3JhbSBvcmRlcmVkIHRvIHJlYXNzZXNzIEVGLgozLiBDYXJkaWFjIHJlaGFiOiByZWZlcnJhbCByZS1zZW50Lgo0LiBSZXR1cm4gaW4gNCB0byA1IHdlZWtzIHdpdGggQk1QIHRoZSB3ZWVrIGJlZm9yZS4K"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

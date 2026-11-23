@@ -1,0 +1,535 @@
+{
+  "759ce44a3190f100": {
+    "document_date": "2025-03-10",
+    "visit_reason": "Well-child visit",
+    "problems": [
+      {
+        "name": "Mild persistent asthma, well controlled",
+        "status": "active",
+        "quote": "Mild persistent asthma, well controlled."
+      }
+    ],
+    "medications": [
+      {
+        "name": "fluticasone HFA",
+        "dose": "44 mcg, 2 puffs",
+        "frequency": "twice daily with spacer",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "fluticasone HFA 44 mcg, 2 puffs twice daily with spacer"
+      },
+      {
+        "name": "albuterol HFA",
+        "dose": "90 mcg, 2 puffs",
+        "frequency": "every 4 hours as needed",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "albuterol HFA 90 mcg, 2 puffs every 4 hours as needed"
+      }
+    ],
+    "labs": [
+      {
+        "name": "Weight",
+        "value": "24.5",
+        "unit": "kg",
+        "reference_range": "60th percentile",
+        "date": "2025-03-10",
+        "abnormal": null,
+        "quote": "Weight 24.5 kg (60th percentile)"
+      },
+      {
+        "name": "Asthma Control Test (childhood)",
+        "value": "23",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-03-10",
+        "abnormal": null,
+        "quote": "Asthma Control Test (childhood) 23"
+      },
+      {
+        "name": "FEV1",
+        "value": "92",
+        "unit": "% predicted",
+        "reference_range": null,
+        "date": "2025-03-10",
+        "abnormal": null,
+        "quote": "Spirometry: FEV1 92% predicted"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": [
+      {
+        "item": "Flu vaccine",
+        "kind": "other",
+        "status": "done",
+        "due": null,
+        "quote": "Flu vaccine given."
+      },
+      {
+        "item": "Asthma check follow-up",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "2025-09-10",
+        "quote": "Return in 6 months for asthma check."
+      }
+    ]
+  },
+  "e557fef851655ebd": {
+    "document_date": "2025-10-02",
+    "visit_reason": "wheezing and cough for 2 days after a cold",
+    "problems": [
+      {
+        "name": "Moderate asthma exacerbation triggered by viral URI",
+        "status": "active",
+        "quote": "Moderate asthma exacerbation triggered by viral URI."
+      },
+      {
+        "name": "viral URI",
+        "status": "active",
+        "quote": "Moderate asthma exacerbation triggered by viral URI."
+      }
+    ],
+    "medications": [
+      {
+        "name": "albuterol",
+        "dose": null,
+        "frequency": "every 3 to 4 hours",
+        "action": "taking",
+        "date": null,
+        "reason": "wheezing and cough",
+        "quote": "Albuterol every 3 to 4 hours since yesterday with partial relief."
+      },
+      {
+        "name": "fluticasone",
+        "dose": null,
+        "frequency": null,
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "missed some fluticasone doses since school started."
+      },
+      {
+        "name": "albuterol/ipratropium",
+        "dose": null,
+        "frequency": null,
+        "action": "started",
+        "date": "2025-10-02",
+        "reason": "Moderate asthma exacerbation",
+        "quote": "albuterol/ipratropium nebulizer x3"
+      },
+      {
+        "name": "dexamethasone",
+        "dose": null,
+        "frequency": null,
+        "action": "started",
+        "date": "2025-10-02",
+        "reason": "Moderate asthma exacerbation",
+        "quote": "oral dexamethasone."
+      },
+      {
+        "name": "prednisolone",
+        "dose": "30 mg",
+        "frequency": "daily",
+        "action": "started",
+        "date": "2025-10-02",
+        "reason": "Moderate asthma exacerbation",
+        "quote": "prednisolone 30 mg daily for 4 more days;"
+      },
+      {
+        "name": "albuterol",
+        "dose": null,
+        "frequency": "every 4 hours for 48 hours then as needed",
+        "action": "started",
+        "date": "2025-10-02",
+        "reason": "Moderate asthma exacerbation",
+        "quote": "albuterol every 4 hours for 48 hours then as needed."
+      }
+    ],
+    "labs": [
+      {
+        "name": "RR",
+        "value": "32",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-10-02",
+        "abnormal": true,
+        "quote": "RR 32"
+      },
+      {
+        "name": "SpO2",
+        "value": "93%",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-10-02",
+        "abnormal": true,
+        "quote": "SpO2 93% on room air"
+      },
+      {
+        "name": "SpO2",
+        "value": "97%",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-10-02",
+        "abnormal": null,
+        "quote": "After treatment SpO2 97%"
+      }
+    ],
+    "allergies": [
+      {
+        "substance": "Amoxicillin",
+        "reaction": "hives",
+        "quote": "Amoxicillin (hives, age 3)."
+      }
+    ],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "Follow up with primary care",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "in 1 to 2 weeks",
+        "quote": "Follow up with primary care in 1 to 2 weeks."
+      }
+    ]
+  },
+  "1b170e18065e9394": {
+    "document_date": "2025-10-14",
+    "visit_reason": "Asthma follow-up after ED visit",
+    "problems": [
+      {
+        "name": "Asthma flare",
+        "status": "resolved",
+        "quote": "Seen in ED 2025-10-02 for an asthma flare."
+      },
+      {
+        "name": "Persistent asthma, not well controlled",
+        "status": "active",
+        "quote": "Persistent asthma, not well controlled after exacerbation."
+      },
+      {
+        "name": "Possible environmental allergy triggers",
+        "status": "active",
+        "quote": "Possible environmental allergy triggers"
+      }
+    ],
+    "medications": [
+      {
+        "name": "prednisolone",
+        "dose": null,
+        "frequency": null,
+        "action": "stopped",
+        "date": null,
+        "reason": "Asthma flare treatment completed",
+        "quote": "Finished prednisolone."
+      },
+      {
+        "name": "fluticasone HFA",
+        "dose": "44 mcg",
+        "frequency": "2 puffs BID",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "fluticasone HFA 44 mcg 2 puffs BID"
+      },
+      {
+        "name": "albuterol",
+        "dose": null,
+        "frequency": "PRN",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "albuterol 3 to 4 times a week."
+      },
+      {
+        "name": "montelukast",
+        "dose": "5 mg chewable",
+        "frequency": "once nightly",
+        "action": "started",
+        "date": "2025-10-14",
+        "reason": "Persistent asthma not well controlled",
+        "quote": "Started montelukast 5 mg chewable once nightly."
+      }
+    ],
+    "labs": [
+      {
+        "name": "ACT",
+        "value": "18",
+        "unit": null,
+        "reference_range": null,
+        "date": "2025-10-14",
+        "abnormal": true,
+        "quote": "ACT 18."
+      },
+      {
+        "name": "Weight",
+        "value": "25.8",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2025-10-14",
+        "abnormal": null,
+        "quote": "Weight 25.8 kg."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": [
+      {
+        "item": "Pediatric allergist referral for allergy testing",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "referred to pediatric allergist for allergy testing."
+      },
+      {
+        "item": "Allergy testing",
+        "kind": "test",
+        "status": "pending",
+        "due": null,
+        "quote": "referred to pediatric allergist for allergy testing."
+      },
+      {
+        "item": "School asthma action plan",
+        "kind": "other",
+        "status": "done",
+        "due": null,
+        "quote": "Updated school asthma action plan."
+      },
+      {
+        "item": "Recheck in 6 to 8 weeks",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "6 to 8 weeks",
+        "quote": "Recheck in 6 to 8 weeks."
+      }
+    ]
+  },
+  "61268670f91dd742": {
+    "document_date": "2026-04-22",
+    "visit_reason": "Asthma follow-up",
+    "problems": [
+      {
+        "name": "Moderate persistent asthma, not well controlled",
+        "status": "active",
+        "quote": "Moderate persistent asthma, not well controlled."
+      }
+    ],
+    "medications": [
+      {
+        "name": "montelukast",
+        "dose": null,
+        "frequency": null,
+        "action": "stopped",
+        "date": null,
+        "reason": "neuropsychiatric side effects",
+        "quote": "Mother stopped the montelukast after about 3 weeks"
+      },
+      {
+        "name": "albuterol HFA",
+        "dose": null,
+        "frequency": "as needed",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "albuterol HFA as needed."
+      },
+      {
+        "name": "fluticasone HFA",
+        "dose": "44 mcg",
+        "frequency": "2 puffs twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "fluticasone HFA 44 mcg 2 puffs twice daily"
+      },
+      {
+        "name": "fluticasone HFA",
+        "dose": "110 mcg",
+        "frequency": "2 puffs twice daily",
+        "action": "changed",
+        "date": "2026-04-22",
+        "reason": "Moderate persistent asthma, not well controlled",
+        "quote": "Fluticasone increased to 110 mcg, 2 puffs twice daily."
+      }
+    ],
+    "labs": [
+      {
+        "name": "ACT",
+        "value": "16",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-04-22",
+        "abnormal": null,
+        "quote": "ACT 16."
+      },
+      {
+        "name": "Weight",
+        "value": "27.0",
+        "unit": "kg",
+        "reference_range": null,
+        "date": "2026-04-22",
+        "abnormal": null,
+        "quote": "Weight 27.0 kg."
+      },
+      {
+        "name": "Spirometry FEV1",
+        "value": "82",
+        "unit": "% predicted",
+        "reference_range": null,
+        "date": "2026-04-22",
+        "abnormal": null,
+        "quote": "Spirometry FEV1 82% predicted"
+      },
+      {
+        "name": "Spirometry FEV1",
+        "value": "92",
+        "unit": "% predicted",
+        "reference_range": null,
+        "date": null,
+        "abnormal": null,
+        "quote": "was 92% in March 2025"
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": [
+      {
+        "item": "Allergist referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Allergist referral re-faxed"
+      },
+      {
+        "item": "Asthma follow-up visit",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "in 3 months",
+        "quote": "Return in 3 months."
+      }
+    ]
+  },
+  "2a24fe182e600872": {
+    "document_date": "2026-08-20",
+    "visit_reason": "Asthma check before school starts",
+    "problems": [
+      {
+        "name": "Asthma",
+        "status": "active",
+        "quote": "Asthma not well controlled."
+      }
+    ],
+    "medications": [
+      {
+        "name": "albuterol",
+        "dose": null,
+        "frequency": "4 times a week",
+        "action": "taking",
+        "date": null,
+        "reason": "Asthma",
+        "quote": "needed albuterol 4 times a week at soccer camp"
+      },
+      {
+        "name": "fluticasone",
+        "dose": "110 mcg",
+        "frequency": "2 puffs twice daily",
+        "action": "taking",
+        "date": null,
+        "reason": "Asthma",
+        "quote": "Using fluticasone 110 mcg, 2 puffs twice daily"
+      }
+    ],
+    "labs": [
+      {
+        "name": "ACT",
+        "value": "14",
+        "unit": null,
+        "reference_range": null,
+        "date": "2026-08-20",
+        "abnormal": true,
+        "quote": "ACT today 14."
+      }
+    ],
+    "allergies": [],
+    "no_known_allergies": null,
+    "open_items": [
+      {
+        "item": "In-person visit with spirometry",
+        "kind": "follow_up",
+        "status": "pending",
+        "due": "in the fall",
+        "quote": "In-person visit in the fall with spirometry."
+      },
+      {
+        "item": "Spirometry",
+        "kind": "test",
+        "status": "pending",
+        "due": "in the fall",
+        "quote": "In-person visit in the fall with spirometry."
+      },
+      {
+        "item": "Allergist referral",
+        "kind": "referral",
+        "status": "pending",
+        "due": null,
+        "quote": "Has not been seen by an allergist yet"
+      },
+      {
+        "item": "School forms (asthma action plan, inhaler at school)",
+        "kind": "other",
+        "status": "done",
+        "due": null,
+        "quote": "School forms (asthma action plan, inhaler at school) completed and sent."
+      }
+    ]
+  },
+  "e5e4cf0344b77c72": {
+    "document_date": "2026-11-01",
+    "visit_reason": null,
+    "problems": [],
+    "medications": [
+      {
+        "name": "Fluticasone propionate HFA",
+        "dose": "110 mcg/actuation",
+        "frequency": "2 puffs inhaled twice daily with spacer",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Fluticasone propionate HFA 110 mcg/actuation \u2014 2 puffs inhaled twice daily with spacer"
+      },
+      {
+        "name": "Albuterol sulfate HFA",
+        "dose": "90 mcg/actuation",
+        "frequency": "2 puffs every 4 hours as needed for wheeze; 2 puffs 15 minutes before exercise",
+        "action": "taking",
+        "date": null,
+        "reason": "wheeze",
+        "quote": "Albuterol sulfate HFA 90 mcg/actuation \u2014 2 puffs every 4 hours as needed for wheeze"
+      },
+      {
+        "name": "Montelukast",
+        "dose": "5 mg chewable tablet",
+        "frequency": "1 tablet by mouth nightly",
+        "action": "taking",
+        "date": null,
+        "reason": null,
+        "quote": "Montelukast 5 mg chewable tablet \u2014 1 tablet by mouth nightly"
+      },
+      {
+        "name": "Cetirizine",
+        "dose": "5 mg",
+        "frequency": "1 tablet by mouth daily as needed for allergies",
+        "action": "taking",
+        "date": null,
+        "reason": "allergies",
+        "quote": "Cetirizine 5 mg \u2014 1 tablet by mouth daily as needed for allergies"
+      }
+    ],
+    "labs": [],
+    "allergies": [],
+    "no_known_allergies": true,
+    "open_items": []
+  }
+}

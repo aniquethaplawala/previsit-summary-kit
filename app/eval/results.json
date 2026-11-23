@@ -1,0 +1,469 @@
+[
+  {
+    "slug": "chf-followup",
+    "chart_id": "bed558a0-57d6-4e11-89f9-a4c568b7161f",
+    "wall_s": 18.2,
+    "traps": [
+      {
+        "id": "stopped_med_on_list",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "changes",
+          "labs",
+          "medications",
+          "problems"
+        ]
+      },
+      {
+        "id": "lab_worsening",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "labs"
+        ]
+      },
+      {
+        "id": "allergy_conflict",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "allergies",
+          "ask_today"
+        ]
+      },
+      {
+        "id": "open_referral",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops"
+        ]
+      },
+      {
+        "id": "pending_echo",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "open_loops",
+          "problems"
+        ]
+      },
+      {
+        "id": "dose_conflict",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes",
+          "medications"
+        ]
+      }
+    ],
+    "dropped": [],
+    "added_by_app": 0,
+    "lines": 27,
+    "quotes_found": 49,
+    "quotes_total": 50,
+    "forbid_hits": [],
+    "words": 424,
+    "cost": {
+      "text_to_json_calls": 3,
+      "m1_calls": 1,
+      "m1_tokens_in": 5079,
+      "m1_tokens_out": 2278,
+      "usd": 0.1681,
+      "extract_ms": [
+        6072,
+        6327,
+        6725
+      ],
+      "summary_ms": [
+        11334
+      ]
+    },
+    "judge": {
+      "lines": 27,
+      "unsupported": [],
+      "advice": [],
+      "unjudged": 0,
+      "usage": {
+        "prompt_tokens": 3644,
+        "completion_tokens": 437,
+        "total_tokens": 4081,
+        "prompt_tokens_details": {
+          "cached_tokens": 2240
+        }
+      }
+    }
+  },
+  {
+    "slug": "depression",
+    "chart_id": "97663c8d-638d-4cfd-a5de-4094a4064213",
+    "wall_s": 18.2,
+    "traps": [
+      {
+        "id": "stopped_med_on_list",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes",
+          "medications"
+        ]
+      },
+      {
+        "id": "lab_worsening",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes",
+          "labs",
+          "problems"
+        ]
+      },
+      {
+        "id": "allergy_conflict",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "allergies",
+          "ask_today"
+        ]
+      },
+      {
+        "id": "open_referral",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops"
+        ]
+      },
+      {
+        "id": "item9",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes"
+        ]
+      }
+    ],
+    "dropped": [],
+    "added_by_app": 0,
+    "lines": 21,
+    "quotes_found": 45,
+    "quotes_total": 50,
+    "forbid_hits": [],
+    "words": 362,
+    "cost": {
+      "text_to_json_calls": 6,
+      "m1_calls": 1,
+      "m1_tokens_in": 3268,
+      "m1_tokens_out": 1699,
+      "usd": 0.3127,
+      "extract_ms": [
+        4341,
+        4462,
+        5304,
+        5559,
+        3010,
+        4247
+      ],
+      "summary_ms": [
+        8904
+      ]
+    },
+    "judge": {
+      "lines": 21,
+      "unsupported": [],
+      "advice": [],
+      "unjudged": 0,
+      "usage": {
+        "prompt_tokens": 2717,
+        "completion_tokens": 341,
+        "total_tokens": 3058,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "diabetes-ckd",
+    "chart_id": "4ea90bfe-7970-494f-a576-f67f0a9904c9",
+    "wall_s": 20.2,
+    "traps": [
+      {
+        "id": "stopped_med_on_list",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes",
+          "medications",
+          "problems"
+        ]
+      },
+      {
+        "id": "lab_worsening",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "changes",
+          "labs"
+        ]
+      },
+      {
+        "id": "allergy_conflict",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "allergies",
+          "ask_today"
+        ]
+      },
+      {
+        "id": "open_referral",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops"
+        ]
+      },
+      {
+        "id": "overdue_eye_exam",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops"
+        ]
+      }
+    ],
+    "dropped": [],
+    "added_by_app": 0,
+    "lines": 26,
+    "quotes_found": 55,
+    "quotes_total": 55,
+    "forbid_hits": [],
+    "words": 329,
+    "cost": {
+      "text_to_json_calls": 6,
+      "m1_calls": 1,
+      "m1_tokens_in": 4968,
+      "m1_tokens_out": 2099,
+      "usd": 0.3171,
+      "extract_ms": [
+        6583,
+        6664,
+        7241,
+        7467,
+        3018,
+        3791
+      ],
+      "summary_ms": [
+        9685
+      ]
+    },
+    "judge": {
+      "lines": 26,
+      "unsupported": [],
+      "advice": [],
+      "unjudged": 0,
+      "usage": {
+        "prompt_tokens": 3375,
+        "completion_tokens": 421,
+        "total_tokens": 3796,
+        "prompt_tokens_details": {
+          "cached_tokens": 448
+        }
+      }
+    }
+  },
+  {
+    "slug": "peds-asthma",
+    "chart_id": "73625977-bd4e-47b1-bf62-926da5f7bb65",
+    "wall_s": 18.2,
+    "traps": [
+      {
+        "id": "stopped_med_on_list",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes",
+          "medications",
+          "problems"
+        ]
+      },
+      {
+        "id": "lab_worsening",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "labs",
+          "problems"
+        ]
+      },
+      {
+        "id": "allergy_conflict",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "allergies",
+          "ask_today"
+        ]
+      },
+      {
+        "id": "open_referral",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops"
+        ]
+      }
+    ],
+    "dropped": [],
+    "added_by_app": 0,
+    "lines": 24,
+    "quotes_found": 43,
+    "quotes_total": 46,
+    "forbid_hits": [],
+    "words": 318,
+    "cost": {
+      "text_to_json_calls": 6,
+      "m1_calls": 1,
+      "m1_tokens_in": 4007,
+      "m1_tokens_out": 1704,
+      "usd": 0.3138,
+      "extract_ms": [
+        4158,
+        5550,
+        6188,
+        6533,
+        3927,
+        3189
+      ],
+      "summary_ms": [
+        8121
+      ]
+    },
+    "judge": {
+      "lines": 24,
+      "unsupported": [],
+      "advice": [],
+      "unjudged": 0,
+      "usage": {
+        "prompt_tokens": 2976,
+        "completion_tokens": 389,
+        "total_tokens": 3365,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    }
+  },
+  {
+    "slug": "prenatal",
+    "chart_id": "2341abf9-f281-40d2-a830-e0f113348015",
+    "wall_s": 20.3,
+    "traps": [
+      {
+        "id": "stopped_med_on_list",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "changes",
+          "medications"
+        ]
+      },
+      {
+        "id": "lab_worsening",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "changes",
+          "labs",
+          "problems"
+        ]
+      },
+      {
+        "id": "allergy_conflict",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "allergies"
+        ]
+      },
+      {
+        "id": "pending_gtt",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops",
+          "problems",
+          "reason"
+        ]
+      },
+      {
+        "id": "pending_ultrasound",
+        "surfaced": true,
+        "by_m1": true,
+        "sections": [
+          "ask_today",
+          "open_loops",
+          "problems",
+          "reason"
+        ]
+      }
+    ],
+    "dropped": [],
+    "added_by_app": 3,
+    "lines": 31,
+    "quotes_found": 51,
+    "quotes_total": 51,
+    "forbid_hits": [],
+    "words": 415,
+    "cost": {
+      "text_to_json_calls": 7,
+      "m1_calls": 1,
+      "m1_tokens_in": 4686,
+      "m1_tokens_out": 1794,
+      "usd": 0.3653,
+      "extract_ms": [
+        4953,
+        5307,
+        6140,
+        6310,
+        3239,
+        2536,
+        5866
+      ],
+      "summary_ms": [
+        7622
+      ]
+    },
+    "judge": {
+      "lines": 28,
+      "unsupported": [],
+      "advice": [],
+      "unjudged": 0,
+      "usage": {
+        "prompt_tokens": 3048,
+        "completion_tokens": 453,
+        "total_tokens": 3501,
+        "prompt_tokens_details": {
+          "cached_tokens": 448
+        }
+      }
+    }
+  }
+]

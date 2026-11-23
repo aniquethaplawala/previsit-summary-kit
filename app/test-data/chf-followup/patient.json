@@ -1,0 +1,22 @@
+{
+  "slug": "chf-followup",
+  "name": "Dolores Whitfield",
+  "dob": "1947-07-02",
+  "sex": "female",
+  "visitDate": "2026-12-01",
+  "visitReason": "Heart failure follow-up",
+  "specialty": "Cardiology",
+  "blurb": "Heart failure with reduced EF and atrial fibrillation. A FHIR R4 Bundle from the EHR (problems, medications, allergies, results, two notes) plus a pasted ED visit note.",
+  "sources": [
+    { "file": "fhir-bundle.json", "kind": "fhir" },
+    { "file": "notes/2026-08-03-ed-visit.md", "kind": "note", "title": "Emergency department visit (outside hospital)", "date": "2026-08-03" }
+  ],
+  "traps": [
+    { "id": "stopped_med_on_list", "description": "Spironolactone was stopped on 2026-05-14 for potassium 5.6 but the EHR medication list still shows it active.", "all": ["spironolactone", "stop|discontinu|still|active"], "sections": ["medications", "ask_today"] },
+    { "id": "lab_worsening", "description": "NT-proBNP rose 1450 -> 2100 -> 3380.", "all": ["bnp", "3,?380"], "sections": ["labs", "changes"] },
+    { "id": "allergy_conflict", "description": "Penicillin allergy (hives) in the EHR; the May cardiology note says NKDA.", "all": ["penicillin", "nkda|no known"], "sections": ["allergies", "ask_today"] },
+    { "id": "open_referral", "description": "Cardiac rehab referral from May never happened.", "all": ["rehab"], "sections": ["open_loops", "ask_today"] },
+    { "id": "pending_echo", "description": "Repeat echocardiogram ordered 2026-10-28, not resulted.", "all": ["echo"], "sections": ["open_loops"] },
+    { "id": "dose_conflict", "description": "Furosemide raised to 40 mg twice daily on 2026-10-28; EHR list still says once daily.", "all": ["furosemide", "twice|bid|40 mg"], "sections": ["medications", "changes"] }
+  ]
+}
